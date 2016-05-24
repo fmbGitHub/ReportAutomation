@@ -112,6 +112,15 @@ namespace AutomationReport {
         protected global::Syncfusion.JavaScript.Web.MaskEdit sfTextboxExecutionInteval;
         
         /// <summary>
+        /// sfTextboxNextExecution control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.MaskEdit sfTextboxNextExecution;
+        
+        /// <summary>
         /// sfTextboxLastExecution control.
         /// </summary>
         /// <remarks>

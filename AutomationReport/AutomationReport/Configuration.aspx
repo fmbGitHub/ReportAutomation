@@ -98,16 +98,21 @@
                             </div>
                             <div class="row form-group">
                                 <div class="col-sm-2 text-right">
-                                    <label>Execution Interval</label>
+                                    <label>Execution Interval:</label>
                                 </div>
-                                <div class="col-sm-10 text-left">
-                                    <ej:MaskEdit ID="sfTextboxExecutionInteval" runat="server" Width="100%" WatermarkText="Enter the Report Name"></ej:MaskEdit>
+                                <div class="col-sm-4 text-left">
+                                    <ej:MaskEdit ID="sfTextboxExecutionInteval" runat="server"  WatermarkText=""></ej:MaskEdit>
                                 </div>
-
+                                <div class="col-sm-2 text-right">
+                                    <label>Next Execution:</label>
+                                </div>
+                                <div class="col-sm-4 text-left">
+                                    <ej:MaskEdit ID="sfTextboxNextExecution" runat="server" Width="100%" WatermarkText=""></ej:MaskEdit>
+                                </div>
                             </div>
                             <div class="row form-group">
                                 <div class="col-sm-2 text-right">
-                                    <label>Last Execution:</label>
+                                    <label>Last Execution:</label> 
                                 </div>
                                 <div class="col-sm-4">
                                     <ej:MaskEdit ID="sfTextboxLastExecution" runat="server" Width="100%" WatermarkText="Enter the name of the Person"></ej:MaskEdit>
